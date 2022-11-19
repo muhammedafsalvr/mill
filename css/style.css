@@ -51,6 +51,7 @@ br.clear {
 .flex-wrapper {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 header {
     padding: 20px 0;
@@ -141,4 +142,57 @@ header nav.right ul li div.img img {
 header hr.line {
     margin-top: 15px;
     border-bottom: 1px solid #e6e6e6;
+}
+#spotlight {
+    padding: 80px 0;
+}
+#spotlight div.left {
+    width: 40%;
+}
+#spotlight div.left h4 {
+    color: #d05d42;
+    font-size: 14px;
+}
+#spotlight div.left h1 {
+    font-size: 57px;
+    font-weight: 600;
+    margin: 20px 0;
+    line-height: 1.5;
+}
+#spotlight div.left p {
+    font-size: 13px;
+    font-weight: normal;
+    color: #8d8d8d;
+    width: 80%;
+    margin-bottom: 20px;
+}
+#spotlight div.left a.button {
+    display: inline-block;
+    font-size: 13px;
+    background: #f4643f;
+    color: #fff;
+    padding: 9px 24px;
+}
+#spotlight div.right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#spotlight div.right div.bg {
+    box-shadow: -11px 11px 0px -2px rgba(244, 100, 63, 1);
+    margin-left: 20px;
+    width: 30%;
+}
+#spotlight div.right div.bg div.img {
+    width: 200px;
+}
+#spotlight div.right div.bg div.img.one {
+}
+#spotlight div.right div.bg div.img.two {
+}
+#spotlight div.right div.bg div.img.three {
+}
+#spotlight div.right div.bg div.img img {
+    width: 100%;
+    display: block;
 }

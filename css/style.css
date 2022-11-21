@@ -186,6 +186,11 @@ header hr.line {
     z-index: -5;
     padding: 150px 140px;
 }
+#about{
+    background: #f9f9f9 url(../images/image\ complete\ art.jpg) no-repeat;
+    background-size: 420px;
+    background-position: 80%;
+}
 #about div.left {
     width: 45%;
 }
@@ -233,6 +238,7 @@ header hr.line {
     margin-bottom: 20px;
     width: 91%;
 }
+
 #about div.left div.container div.img {
     width: 60px;
     margin-right: 15px;
@@ -248,6 +254,30 @@ header hr.line {
 #about div.left div.container p {
 }
 #about div.right {
+    position: relative;
 }
-#about div.right img {
+#about div.right div.bg {
+    position: absolute;
+    background: #12192c;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    height: 100px;
+    width: 420px;
+    left:60.7%;
+    bottom: -58px;
+}
+#about div.right div.bg h2 {
+    font-size: 60px;
+    font-weight: normal;
+    color: #f36541;
+    margin-right: 20px;
+    margin-left: 112px;
+}
+#about div.right div.bg h4{
+    max-width: 20%;
+    font-size: normal;
+    font-size: 14px;
+    color: #fff;
+    line-height: 2;
 }

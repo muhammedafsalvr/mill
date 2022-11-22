@@ -186,7 +186,7 @@ header hr.line {
     z-index: -5;
     padding: 150px 140px;
 }
-#about{
+#about {
     background: #f9f9f9 url(../images/image\ complete\ art.jpg) no-repeat;
     background-size: 420px;
     background-position: 80%;
@@ -264,7 +264,7 @@ header hr.line {
     margin: 0 auto;
     height: 100px;
     width: 420px;
-    left:60.7%;
+    left: 60.7%;
     bottom: -58px;
 }
 #about div.right div.bg h2 {
@@ -274,7 +274,7 @@ header hr.line {
     margin-right: 20px;
     margin-left: 112px;
 }
-#about div.right div.bg h4{
+#about div.right div.bg h4 {
     max-width: 20%;
     font-size: normal;
     font-size: 14px;

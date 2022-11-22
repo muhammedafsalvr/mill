@@ -243,16 +243,12 @@ header hr.line {
     width: 60px;
     margin-right: 15px;
 }
-#about div.left div.container div.content {
-}
+
 #about div.left div.container div.img img {
     width: 100%;
     display: block;
 }
-#about div.left div.container h4 {
-}
-#about div.left div.container p {
-}
+
 #about div.right {
     position: relative;
 }
@@ -280,4 +276,117 @@ header hr.line {
     font-size: 14px;
     color: #fff;
     line-height: 2;
+}
+#industry {
+    padding: 110px 0;
+}
+#industry section.top {
+    text-align: center;
+    margin: 0 auto 50px;
+}
+#industry section.top div.bg {
+    position: relative;
+}
+#industry section.top div.bg span {
+    border: 2px solid #000;
+    height: 40px;
+    width: 23px;
+    display: block;
+    position: absolute;
+    left: 47%;
+    bottom: -60%;
+    z-index: -1;
+}
+#industry section.top div.bg h4 {
+    color: #d05d42;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+#industry section.top h2 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#industry section.top p {
+    width: 22%;
+    font-size: 13px;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: normal;
+    color: #8d8d8d;
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+#industry section.bottom ul {
+    display: flex;
+    justify-content: space-between;
+}
+#industry section.bottom ul li hr.line {
+    border-bottom: 4px solid #000;
+    width: 90%;
+    margin-left: 20px;
+}
+#industry section.bottom ul li div.bg {
+    height: 230px;
+    position: relative;
+    margin-bottom: 30px;
+}
+#industry section.bottom ul li div.bg.one {
+    background: url(../images/industry1.jpg) no-repeat;
+    background-size: 380px;
+    background-position: center -100px;
+}
+#industry section.bottom ul li div.bg.two {
+    background: url(../images/industry2.jpg) no-repeat;
+    background-size: 380px;
+    background-position: center -257px;
+}
+#industry section.bottom ul li div.bg.three {
+    background: url(../images/industry3.jpg) no-repeat;
+    background-size: 380px;
+    background-position: center -205px;
+}
+#industry section.bottom ul li div.bg div.logo-bg {
+    position: absolute;
+    padding: 6px;
+    background: #fff;
+    border-bottom: 2px solid #000;
+    left: 70%;
+    top: 77%;
+}
+#industry section.bottom ul li div.bg div.logo-bg img {
+    width: 100%;
+    display: block;
+}
+#industry section.bottom ul li div.content {
+    width: 90%;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+#industry section.bottom ul li div.content h5 {
+    color: #d05d42;
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+#industry section.bottom ul li div.content h4 {
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+#industry section.bottom ul li div.content p {
+    font-size: 13px;
+    font-weight: normal;
+    color: #8d8d8d;
+    width: 90%;
+    margin-bottom: 15px;
+}
+#industry section.bottom ul li div.content a {
+    padding: 10px 32px;
+    background: #f4643f;
+    color: #fff;
+    font-size: 12px;
+}
+#industry section.bottom ul li div.content a.button {
+    cursor: pointer;
 }

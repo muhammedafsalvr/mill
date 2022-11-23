@@ -432,12 +432,6 @@ header hr.line {
     color: #8d8d8d;
 }
 
-#logo div.two {
-}
-
-#logo div.two h3 {
-}
-
 #logo div.two ul {
     display: flex;
     justify-content: flex-start;
@@ -448,14 +442,10 @@ header hr.line {
     width: 20%;
 }
 
-#logo div.two ul li div.image {
-}
-
 #logo div.two ul li div.image img {
     width: 100%;
     display: block;
 }
-
 #logo div.two ul li.wide {
     width: 40%;
 }
@@ -613,4 +603,89 @@ header hr.line {
 }
 #news div.select span:nth-child(2) {
     background: #f4643f;
+}
+#works {
+    background: #f1f2f4;
+    padding: 100px 0;
+}
+#works div.head {
+    position: relative;
+    margin-bottom: 21px;
+}
+#works div.head span.text {
+    color: #d05d42;
+    font-size: 14px;
+}
+#works div.head div.door {
+    position: absolute;
+    height: 42px;
+    width: 21px;
+    border: 2px solid #000;
+    top: -62%;
+    left: 1%;
+}
+#works div.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#works div.container div.left {
+    width: 48%;
+}
+#works div.container div.left h1 {
+    font-size: 40px;
+    font-weight: 600;
+    width: 183px;
+    line-height: 2.5rem;
+}
+#works div.container div.left p {
+    font-size: 13px;
+    font-weight: normal;
+    color: #8d8d8d;
+    margin: 20px 0;
+    width: 301px;
+}
+#works div.container div.left p span {
+    color: #d05d42;
+    font-size: 13px;
+}
+#works div.container div.left a.button {
+    display: inline-block;
+    background: #f4643f;
+    color: #fff;
+    padding: 10px 36px;
+    font-size: 12px;
+}
+#works div.container ul {
+    width: 80%;
+    display: flex;
+}
+#works div.container ul li {
+    margin-left: 40px;
+    background: #ffffff;
+    padding: 30px 10px;
+}
+#works div.container ul li div.icon {
+    width: 40px;
+    margin-bottom: 16px;
+}
+#works div.container ul li div.icon img {
+    display: block;
+    width: 100%;
+}
+#works div.container ul li h5 {
+    font-size: 18px;
+    font-weight: 600;
+    width: 84px;
+    margin-top: 22px;
+}
+#works div.container ul li p {
+    font-size: 13px;
+    font-weight: normal;
+    color: #8d8d8d;
+    margin-top: 10px;
+}
+#works div.container ul li p span {
+    color: #d05d42;
+    font-size: 13px;
 }

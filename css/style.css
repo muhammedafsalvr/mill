@@ -391,6 +391,7 @@ header hr.line {
     cursor: pointer;
 }
 #logo {
+    padding-bottom: 110px;
 }
 
 #logo div.one {
@@ -419,15 +420,16 @@ header hr.line {
 }
 
 #logo h2 {
-    font-size: 45px;
+    font-size: 40px;
     font-weight: bold;
 }
 
 #logo p {
     font-size: 13px;
     font-weight: normal;
-    width: 50%;
-    margin: 10px auto;
+    width: 25%;
+    margin: 10px auto 40px;
+    color: #8d8d8d;
 }
 
 #logo div.two {
@@ -466,4 +468,149 @@ header hr.line {
 #logo div.two ul li.wide div.image1 img {
     width: 100%;
     display: block;
+}
+#news {
+    padding-bottom: 100px;
+}
+#news div.top {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+#news div.top div.bg {
+    position: relative;
+}
+#news div.top div.bg span {
+    border: 2px solid #000;
+    height: 40px;
+    width: 23px;
+    display: block;
+    position: absolute;
+    left: 45%;
+    bottom: 81%;
+    z-index: -1;
+}
+#news div.top div.bg h4 {
+    color: #d05d42;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+#news div.top div.bg h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+#news div.top div.bg p {
+    font-size: 13px;
+    font-weight: normal;
+    width: 60%;
+    margin: 10px auto 40px;
+    color: #8d8d8d;
+}
+#news div.bottom {
+    margin-bottom: 180px;
+}
+#news div.bottom ul {
+    display: flex;
+}
+#news div.bottom ul li {
+    position: relative;
+    width: 50%;
+}
+#news div.bottom ul li div.bg {
+    height: 230px;
+}
+#news div.bottom ul li div.bg.one {
+    background: url(../images/close-up-industrial-robot-welding-car-factory-close-up-industrial-robot-welding-metal-part-car-factory-109640032.jpg)
+        no-repeat;
+    background-size: 380px;
+    background-position: center -8px;
+}
+#news div.bottom ul li div.bg.two {
+    background: url(../images/industrial-pumps-pipes-large-moving-hot-liquid-associated-piping-insulated-to-retain-temperature-liquid-50254533.jpg)
+        no-repeat;
+    background-size: 380px;
+    background-position: center -40px;
+}
+#news div.bottom ul li div.bg.three {
+    background: url(../images/industrial-plant-24624801.jpg) no-repeat;
+    background-size: 380px;
+    background-position: center -22px;
+}
+#news div.bottom ul li:first-child div.content {
+    position: absolute;
+    bottom: -130px;
+    left: 40px;
+}
+#news div.bottom ul li:nth-child(2) div.content {
+    position: absolute;
+    left: 40px;
+    bottom: -130px;
+}
+#news div.bottom ul li:last-child div.content {
+    position: absolute;
+    left: 40px;
+    bottom: -130px;
+}
+#news div.bottom ul li div.content a.button {
+    padding: 10px 32px;
+    background: #f4643f;
+    color: #fff;
+    font-size: 12px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+#news div.bottom ul li div.content span {
+    display: block;
+    margin-bottom: 10px;
+    color: #8d8d8d;
+    font-size: 13px;
+    font-weight: 600;
+}
+#news div.bottom ul li div.content small {
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 10px;
+}
+#news div.bottom ul li div.content h4 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 8px;
+    width: 66%;
+}
+#news div.bottom ul li div.content div.button {
+    display: flex;
+    align-items: center;
+}
+#news div.bottom ul li div.content div.button a.button {
+    color: #d05d42;
+    background: none;
+    padding: 0;
+    font-size: 14px;
+    width: 26%;
+    margin-bottom: 0;
+}
+#news div.bottom ul li div.content div.button a {
+    width: 30px;
+}
+#news div.bottom ul li div.content div.button a img {
+    display: block;
+    width: 100%;
+    color: #cb5233;
+    filter: brightness(50%) sepia(100) saturate(100) hue-rotate(25deg);
+}
+#news div.select {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#news div.select span {
+    display: block;
+    border: 3px solid #f4643f;
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+}
+#news div.select span:nth-child(2) {
+    background: #f4643f;
 }

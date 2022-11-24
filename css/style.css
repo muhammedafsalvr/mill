@@ -601,9 +601,11 @@ header hr.line {
     width: 15px;
     margin: 0 5px;
 }
-#news div.select span:nth-child(2) {
+#news div.select span:hover{
     background: #f4643f;
+    cursor: pointer;
 }
+
 #works {
     background: #f1f2f4;
     padding: 100px 0;
@@ -766,12 +768,11 @@ header hr.line {
     justify-content: space-between;
     align-items: center;
 }
+#review div.container div.content ul li:hover {
+    opacity: 1;
+    cursor: pointer;
+}
 #review div.container div.content ul li {
-}
-#review div.container div.content ul li:nth-child(2) {
-    opacity: 0.5;
-}
-#review div.container div.content ul li:last-child {
     opacity: 0.5;
 }
 #review div.container div.content ul li div.img {

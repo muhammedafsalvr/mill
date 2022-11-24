@@ -884,3 +884,155 @@ header hr.line {
     font-size: 12px;
     color: #797979;
 }
+footer {
+    background: #12192c;
+    padding: 80px 0;
+}
+footer div.container {
+    display: flex;
+    justify-content: space-between;
+}
+footer div.container div.left {
+    width: 20%;
+}
+footer div.container div.left div.logo {
+    margin-bottom: 24px;
+}
+footer div.container div.left div.logo image {
+    width: 100%;
+    display: block;
+}
+footer div.container div.left ul {
+}
+footer div.container div.left ul li {
+    color: #fff;
+    margin-bottom: 16px;
+    font-size: 12px;
+}
+footer div.container div.left ul li:last-child {
+    margin-bottom: 0;
+}
+footer div.container div.middle_one {
+    width: 20%;
+    text-align: center;
+}
+footer div.container div.middle_one div.about {
+    display: flex;
+}
+footer div.container div.middle_one h3 {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    width: 70%;
+    margin-bottom: 18px;
+}
+footer div.container div.middle_one ul {
+}
+footer div.container div.middle_one ul li {
+    display: flex;
+    align-items: center;
+}
+footer div.container div.middle_one ul li span {
+    display: inline-block;
+}
+footer div.container div.middle_one ul li span img {
+    width: 100%;
+    display: block;
+}
+footer div.container div.middle_one ul li small {
+    display: inline-block;
+    color: #fff;
+    margin-right: 18px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+footer div.container div.middle_two {
+    width: 20%;
+}
+footer div.container div.middle_two h3 {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 18px;
+}
+footer div.container div.middle_two ul {
+}
+footer div.container div.middle_two ul li {
+    display: flex;
+}
+footer div.container div.middle_two ul li div.img {
+    width: 70px;
+    margin-bottom: 12px;
+    margin-right: 12px;
+}
+footer div.container div.middle_two ul li div.img:last-child {
+    margin-bottom: 0;
+}
+footer div.container div.middle_two ul li div.img img {
+    width: 100%;
+    display: block;
+}
+footer div.container div.middle_two ul li div.content {
+}
+footer div.container div.middle_two ul li div.content h6 {
+    font-size: 10px;
+    color: #797979;
+}
+footer div.container div.middle_two ul li div.content span {
+    font-size: 14px;
+    color: #fff;
+}
+footer div.container div.right {
+    width: 20%;
+    position: relative;
+}
+footer div.container div.right div.map_box {
+    background: #f4643f;
+    width: 300px;
+    height: 330px;
+    position: absolute;
+    bottom: 20px;
+}
+footer div.container div.right div.map_box div.map_img {
+    padding: 14px;
+}
+footer div.container div.right div.map_box div.map_img img {
+    display: block;
+    width: 100%;
+}
+footer div.container div.right div.map_box div.box_content {
+    padding: 10px;
+}
+footer div.container div.right div.map_box h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 16px;
+}
+footer div.container div.right div.map_box p {
+    font-size: 12px;
+    color: #fff;
+    width: 60%;
+    margin: 18px 0;
+}
+footer div.container div.right div.map_box h5 {
+    color: #fff;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+footer div.container div.right div.map_box h6 {
+    color: #fff;
+    font-size: 12px;
+}
+footer hr.line {
+    border-bottom: 1px solid #797979;
+    padding-top: 70px;
+}
+footer div.footer_bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 0;
+}
+footer div.footer_bottom h6 {
+    color: #fff;
+}

@@ -396,143 +396,106 @@ header hr.line {
     width: 100%;
     display: block;
 }
-#news {
-    padding-bottom: 100px;
+#article {
+    padding: 90px 0;
 }
-#news div.top {
-    margin: 0 auto;
-    width: 50%;
+#article div.se_logo {
+    width: 50px;
+    margin: 0px auto;
+}
+#article div.se_logo img {
+    width: 100%;
+    display: block;
+}
+#article h2 {
+    font-size: 48px;
+    font-weight: normal;
+    margin: 24px 0;
     text-align: center;
 }
-#news div.top div.bg {
-    position: relative;
-}
-#news div.top div.bg span {
-    border: 2px solid #000;
-    height: 40px;
-    width: 23px;
-    display: block;
-    position: absolute;
-    left: 45%;
-    bottom: 81%;
-    z-index: -1;
-}
-#news div.top div.bg h4 {
-    color: #d05d42;
+#article p {
     font-size: 14px;
-    margin-bottom: 30px;
-}
-#news div.top div.bg h2 {
-    font-size: 40px;
-    font-weight: 600;
-}
-#news div.top div.bg p {
-    font-size: 13px;
-    font-weight: normal;
-    width: 60%;
-    margin: 10px auto 40px;
     color: #8d8d8d;
+    text-align: center;
+    width: 35%;
+    margin: 0 auto;
 }
-#news div.bottom {
-    margin-bottom: 180px;
+#article div.cards {
+    margin: 24px 0;
 }
-#news div.bottom ul {
+#article div.cards ul {
     display: flex;
+    justify-content: space-between;
 }
-#news div.bottom ul li {
+#article div.cards ul li {
+    width: 31%;
+}
+#article div.cards ul li div.card_img {
     position: relative;
-    width: 50%;
+    height: 300px;
 }
-#news div.bottom ul li div.bg {
-    height: 230px;
-}
-#news div.bottom ul li div.bg.one {
-    background: url(../images/close-up-industrial-robot-welding-car-factory-close-up-industrial-robot-welding-metal-part-car-factory-109640032.jpg)
-        no-repeat;
-    background-size: 380px;
-    background-position: center -8px;
-}
-#news div.bottom ul li div.bg.two {
-    background: url(../images/industrial-pumps-pipes-large-moving-hot-liquid-associated-piping-insulated-to-retain-temperature-liquid-50254533.jpg)
-        no-repeat;
-    background-size: 380px;
-    background-position: center -40px;
-}
-#news div.bottom ul li div.bg.three {
-    background: url(../images/industrial-plant-24624801.jpg) no-repeat;
-    background-size: 380px;
-    background-position: center -22px;
-}
-#news div.bottom ul li div.content {
-    position: absolute;
-    bottom: -130px;
-    left: 40px;
-}
-#news div.bottom ul li div.content a.button {
-    padding: 10px 32px;
-    background: #f4643f;
-    color: #fff;
-    font-size: 12px;
-    margin-bottom: 10px;
-    display: inline-block;
-}
-#news div.bottom ul li div.content span {
-    display: block;
-    margin-bottom: 10px;
-    color: #8d8d8d;
-    font-size: 13px;
-    font-weight: 600;
-}
-#news div.bottom ul li div.content small {
-    color: #000;
-    font-size: 14px;
-    font-weight: 600;
-    margin: 0 10px;
-}
-#news div.bottom ul li div.content h4 {
-    font-weight: 600;
-    font-size: 20px;
-    margin-bottom: 8px;
-    width: 66%;
-}
-#news div.bottom ul li div.content div.button {
-    display: flex;
-    align-items: center;
-}
-#news div.bottom ul li div.content div.button a.button {
-    color: #d05d42;
-    background: none;
-    padding: 0;
-    font-size: 14px;
-    width: 26%;
-    margin-bottom: 0;
-}
-#news div.bottom ul li div.content div.button a {
-    width: 30px;
-}
-#news div.bottom ul li div.content div.button a img {
-    display: block;
+#article div.cards ul li div.card_img img {
     width: 100%;
-    color: #cb5233;
-    filter: brightness(50%) sepia(100) saturate(100) hue-rotate(25deg);
-}
-#news div.select {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-#news div.select span {
     display: block;
-    border: 3px solid #f4643f;
-    height: 15px;
-    width: 15px;
-    margin: 0 5px;
+    /* height: 230px; */
+    height: 100%;
 }
-#news div.select span:hover {
+#article div.cards ul li div.card_img span.card_title {
     background: #f4643f;
+    padding: 10px 18px;
+    display: inline-block;
+    font-size: 14px;
+    position: absolute;
+    left: 16px;
+    bottom: -10px;
+}
+#article div.cards ul li span.card_title a {
+    color: #fff;
+}
+#article div.cards ul li h6 {
+    margin: 16px 0;
+    color: #8d8d8d;
+    font-size: 14px;
+}
+#article div.cards ul li h5 {
+    font-size: 22px;
+    font-weight: normal;
+    margin-bottom: 16px;
+    width: 80%;
+}
+#article div.cards ul li h4 {
+    font-size: 14px;
+    color: #d05d42;
+    display: inline-flex;
     cursor: pointer;
 }
-
+#article div.cards ul li h4 span {
+    display: inline-block;
+    margin-left: 16px;
+}
+#article div.cards ul li h4 span img {
+    width: 100%;
+    display: inline-block;
+}
+#article div.scroller {
+    text-align: center;
+}
+#article div.scroller span.scroll {
+    width: 15px;
+    height: 15px;
+    border: 3px solid #f4643f;
+    margin-right: 8px;
+    background: #fff;
+    display: inline-block;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#article div.scroller span.scroll:hover {
+    background: #f4643f;
+}
+#article div.scroller span.scroll:last-child {
+    margin-right: 0;
+}
 #works {
     background: #f1f2f4;
     padding: 100px 0;
@@ -617,199 +580,203 @@ header hr.line {
     color: #d05d42;
     font-size: 13px;
 }
-#review {
-    padding: 100px 0;
+#testimonial {
+    padding: 50px 0;
 }
-
-#review div.rank {
+#testimonial div.test_head {
     text-align: center;
-    margin-bottom: 70px;
+    margin-bottom: 26px;
+    padding: 54px 0;
 }
-#review div.rank ul {
+#testimonial div.test_head ul {
     width: 50%;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    list-style-type: none;
 }
-#review div.rank ul li {
+#testimonial div.test_head ul li {
 }
-#review div.rank ul li h4 {
-    font-size: 37px;
-    font-weight: 700;
+#testimonial div.test_head ul li h4 {
+    font-size: 34px;
+    font-weight: normal;
     color: #f4643f;
-    margin-bottom: 10px;
 }
-#review div.rank ul li h5 {
-    font-size: 10px;
+#testimonial div.test_head ul li h5 {
+    font-size: 12px;
     color: #8d8d8d;
-    margin-bottom: 10px;
+    margin: 14px 0;
 }
-#review div.rank ul li h6 {
+#testimonial div.test_head ul li h6 {
     font-size: 20px;
     font-weight: 600;
 }
-#review div.container {
-    background: url(../images/review.jpg) no-repeat;
+#testimonial div.test_body {
+    background-image: url("../images/review.jpg");
+    height: 550px;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0;
     position: relative;
-    background-position: center;
 }
-#review div.container div.content {
-    width: 33%;
-    background-color: #fff;
-    margin-left: 259px;
-    position: relative;
-    padding: 38px;
-    height: 549px;
-}
-#review div.container div.content div.bg {
+#testimonial div.box_container {
     position: absolute;
-    bottom: 93%;
-    z-index: 0;
+    left: 260px;
 }
-#review div.container div.content div.bg span {
-    border: 2px solid #000;
-    height: 43px;
-    width: 23px;
+#testimonial div.test_body div.test_box {
+    width: 500px;
+    background: #fff;
+    height: 480px;
+    padding: 40px;
+}
+#testimonial div.box_container div.test_box div.se_logo {
+    width: 50px;
+    /* margin-bottom: 18px; */
+}
+#testimonial div.box_container div.test_box div.se_logo img {
+    width: 100%;
     display: block;
-    position: absolute;
-    left: 11%;
-    bottom: 41%;
-    z-index: -1;
 }
-#review div.container div.content div.bg h4 {
-    color: #d05d42;
-    font-size: 14px;
-    margin-bottom: 30px;
+#testimonial div.box_container div.test_box h2 {
+    font-size: 36px;
+    font-weight: normal;
+    margin-bottom: 18px;
+    width: 80%;
 }
-#review div.container div.content h2 {
-    font-size: 33px;
-    font-weight: 600;
-    margin-bottom: 40px;
+#testimonial div.test_body div.test_box_blue {
+    background: #12192c;
+    width: 500px;
+    height: 110px;
 }
-#review div.container div.content ul {
+#testimonial div.test_body div.test_box ul {
     display: flex;
-    margin-bottom: 25px;
-    justify-content: space-between;
-    align-items: center;
-}
-#review div.container div.content ul li:hover {
-    opacity: 1;
-    cursor: pointer;
-}
-#review div.container div.content ul li {
-    opacity: 0.5;
-}
-#review div.container div.content ul li div.img {
-    box-shadow: 10px 10px 0px 0px rgba(197, 197, 197, 1);
-    width: 83px;
-    margin-bottom: 20px;
-}
-#review div.container div.content ul li:nth-child(2) div.img {
-    box-shadow: 10px 10px 0px 0px rgba(253, 226, 219, 1);
-}
-#review div.container div.content ul li:last-child div.img {
-    box-shadow: 10px 10px 0px 0px rgba(253, 226, 219, 1);
-}
-#review div.container div.content ul li div.img img {
-    display: block;
     width: 100%;
 }
-#review div.container div.content ul li small {
-    font-size: 12px;
-    margin-left: 10px;
+#testimonial div.test_body div.test_box ul li {
+    width: 27%;
+    opacity: 0.5;
+    transition: 0.5s;
 }
-#review div.container div.content ul li span {
-    font-size: 12px;
-    color: #d57358;
+#testimonial div.test_body div.test_box ul li:hover {
+    opacity: 1;
 }
-#review div.container div.content blockquote {
+#testimonial div.test_body div.test_box ul li div.content {
+    width: 80%;
+}
+#testimonial div.test_body div.test_box ul li div.content div.bg {
+    width: 80px;
+    height: 80px;
+    background: #c5c5c5;
+    margin-bottom: 12px;
+    position: relative;
+}
+#testimonial div.test_body div.test_box ul li:nth-child(2n) div.content div.bg {
+    background: #fde2db;
+}
+#testimonial div.test_body div.test_box ul li:nth-child(3n) div.content div.bg {
+    background: #fde2db;
+}
+#testimonial div.test_body div.test_box ul li div.content div.bg .test_img {
+    position: absolute;
+    width: 100%;
+    top: -8px;
+    left: -7px;
+}
+#testimonial div.test_body div.test_box ul li div.content div.bg .test_img img {
+    width: 100%;
+    display: block;
+}
+#testimonial div.test_body div.test_box ul li div.content h6 {
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+#testimonial div.test_body div.test_box ul li div.content h4 {
+    font-size: 14px;
+    color: #f4643f;
+}
+#testimonial div.test_body div.test_box p {
+    line-height: 1.6em;
     font-size: 12px;
     font-style: italic;
-    color: #8d8d8d;
-    margin-bottom: 50px;
+    margin-top: 10px;
+    color: #797979;
 }
-#review div.container div.content div.rating {
+#testimonial div.test_body div.arrow_section {
+    margin-top: 8px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
 }
-#review div.container div.content div.rating div.left {
+#testimonial div.test_body div.arrow_section div.left {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
+    width: 30%;
 }
-#review div.container div.content div.rating div.left div.arrow {
-    width: 20px;
+#testimonial div.test_body div.arrow_section div.left span.arrow {
+    display: inline-block;
 }
-#review div.container div.content div.rating div.left div.arrow img {
-    display: block;
+#testimonial div.test_body div.arrow_section div.left span.arrow img {
     width: 100%;
+    display: inline-block;
 }
-#review div.container div.content div.rating div.left small {
-    margin: 0 10px;
-    font-size: 12px;
-    font-weight: 600;
-}
-#review div.container div.content div.right {
+#testimonial div.test_body div.arrow_section div.right {
     display: flex;
 }
-#review div.container div.content div.right span.star {
-    width: 11px;
-    margin-right: 10px;
+#testimonial div.test_body div.arrow_section div.right span.star {
+    width: 12px;
+    margin-left: 8px;
 }
-#review div.container div.content div.right span.star img {
-    display: block;
+#testimonial div.test_body div.arrow_section div.right span.star img {
     width: 100%;
+    display: inline-block;
 }
-#review div.container div.content div.contact {
-    padding: 10px;
-    background: #12192c;
-    position: absolute;
-    width: 501px;
-    height: 94px;
-    right: 0px;
-    top: 470px;
+#testimonial div.test_body div.test_box_blue {
+    text-align: center;
+    padding-top: 20px;
 }
-#review div.container div.content div.contact h4 {
+#testimonial div.test_body div.test_box_blue h4 {
     color: #fff;
-    text-align: center;
-    font-size: 13px;
-    margin: 10px 0;
+    font-size: 14px;
+    margin-bottom: 12px;
 }
-#review div.container div.content div.contact h3 {
-    color: #f36541;
-    text-align: center;
-    font-size: 30px;
+#testimonial div.test_body div.test_box_blue h3 {
+    color: #f4643f;
+    font-size: 24px;
 }
-#review div.icon {
-    width: 79%;
+#testimonial div.test_bottom {
+    padding: 92px 0;
+}
+#testimonial div.test_bottom div.icon_section {
+    width: 60%;
     margin: 0 auto;
-    padding-top: 70px;
 }
-#review div.icon ul {
+#testimonial div.test_bottom div.icon_section ul {
     display: flex;
     justify-content: space-between;
-    list-style-type: none;
 }
-#review div.icon ul li {
+#testimonial div.test_bottom div.icon_section ul li {
 }
-#review div.icon ul li div.completed {
+#testimonial div.test_bottom div.icon_section ul li div.icon_container {
     text-align: center;
 }
-#review div.icon ul li div.completed span {
-    width: 45px;
+#testimonial div.test_bottom div.icon_section ul li div.icon_container span {
+    width: 60px;
     display: inline-block;
-    margin-bottom: 10px;
 }
-#review div.icon ul li div.completed span img {
+#testimonial
+    div.test_bottom
+    div.icon_section
+    ul
+    li
+    div.icon_container
+    span
+    img {
     width: 100%;
     display: inline-block;
 }
-#review div.icon ul li div.completed h4 {
+#testimonial div.test_bottom div.icon_section ul li div.icon_container h4 {
     font-size: 12px;
     color: #797979;
 }
+
 footer {
     background: #12192c;
     padding: 50px 0;
@@ -967,35 +934,25 @@ footer div.footer_bottom h6 {
     #spotlight div.left h1 {
         font-size: 44px;
     }
+    #article p {
+        width: 40%;
+    }
+    #article div.cards ul li div.card_img {
+        height: 250px;
+    }
+
+    #article div.cards ul li h5 {
+        font-size: 20px;
+        margin-bottom: 14px;
+        width: 80%;
+    }
+    #article div.cards ul li h6 {
+        font-size: 12px;
+    }
     #logo div.one div.bg span {
         left: 500px;
     }
-    #news div.top div.bg span {
-        left: 42%;
-    }
-    #news div.bottom ul li div.content {
-        bottom: -135px;
-        left: 25px;
-    }
-    #news div.bottom ul li div.content h4 {
-        font-size: 17px;
-    }
-    #news div.bottom ul li div.content div.button a.button {
-        font-size: 10px;
-    }
-    #news div.bottom ul li div.content div.button a {
-        width: 25px;
-    }
-    #review div.container div.content h2 {
-        font-size: 30px;
-    }
-    #review div.container div.content div.contact h3 {
-        font-size: 20px;
-    }
-    #review div.container div.content div.contact {
-        width: 356px;
-        top: 485px;
-    }
+
     footer div.container div.middle_first ul li small {
         font-size: 9px;
     }
@@ -1030,9 +987,7 @@ footer div.footer_bottom h6 {
     #logo div.one div.bg span {
         left: 450px;
     }
-    #news div.bottom ul li div.content h4 {
-        font-size: 15px;
-    }
+
     #works div.container ul li {
         background: #ffffff;
         padding: 30px 10px;
@@ -1044,20 +999,33 @@ footer div.footer_bottom h6 {
     #works div.container ul {
         width: 70%;
     }
-    #review div.container div.content div.contact {
-        width: 324px;
-        top: 498px;
-        height: 82px;
+
+    #industry section.inner_container div.left div.se_logo {
+        width: 40px;
     }
-    #review div.icon ul li {
-        width: 20%;
+    #industry section.inner_container div.left h2 {
+        font-size: 34px;
     }
-    #review div.icon ul li div.completed span {
-        width: 30px;
+    #industry section.inner_container div.left p {
+        font-size: 12px;
     }
-    #news div.bottom ul li div.content {
-        bottom: -120px;
-        left: 20px;
+    #article h2 {
+        font-size: 38px;
+    }
+    #article div.cards ul li div.card_img {
+        height: 240px;
+    }
+    #testimonial div.test_bottom {
+        padding: 100px 0;
+    }
+    #testimonial
+        div.test_bottom
+        div.icon_section
+        ul
+        li
+        div.icon_container
+        span {
+        width: 40px;
     }
     footer div.container div.middle_first {
         width: 25%;
@@ -1073,6 +1041,65 @@ footer div.footer_bottom h6 {
     }
     #spotlight div.left h1 {
         font-size: 25px;
+    }
+    #industry section.inner_container {
+        flex-wrap: wrap;
+    }
+    #industry section.inner_container div.left {
+        width: 100%;
+    }
+    #industry section.inner_container div.right {
+        width: 80%;
+        margin: 0 auto;
+    }
+    #industry section.inner_container div.left {
+        padding: 0;
+    }
+    #industry section.inner_container div.right {
+        padding: 70px 0;
+    }
+    #industry section.inner_container {
+        padding-top: 50px;
+    }
+    #article p {
+        width: 60%;
+    }
+    #article div.cards ul li div.card_img {
+        height: 200px;
+    }
+    #article div.cards ul li h5 {
+        width: 100%;
+    }
+    #article div.scroller span.scroll {
+        width: 14px;
+        height: 14px;
+    }
+    #service p {
+        width: 60%;
+        margin: 0 auto;
+    }
+    #service div.cards ul li div.card_img {
+        height: 200px;
+    }
+    #service div.cards ul li div.icon_bg {
+        position: absolute;
+        top: 150px;
+        right: 24px;
+        border-bottom: 1px solid #000;
+    }
+    #service div.cards ul li div.icon_bg div.icon {
+        width: 30px;
+    }
+    #service div.cards ul li {
+        width: 30%;
+        text-align: center;
+    }
+    #logo div.one div.bg span {
+        left: 350px;
+    }
+
+    #works div.container div.left h1 {
+        font-size: 32px;
     }
     footer div.container div.middle_first {
         width: 27%;
@@ -1094,4 +1121,132 @@ footer div.footer_bottom h6 {
         font-size: 10px;
         margin: 6px 0;
     }
+    #testimonial div.test_head ul li h4 {
+        font-size: 24px;
+    }
+    #testimonial div.box_container {
+        left: 134px;
+    }
+    #testimonial div.box_container div.test_box div.se_logo {
+        width: 40px;
+    }
+    #testimonial div.box_container div.test_box h2 {
+        font-size: 28px;
+        width: 60%;
+    }
+    #testimonial div.test_body div.test_box {
+        width: 500px;
+        background: #fff;
+        height: 465px;
+    }
+    #testimonial div.test_body div.test_box_blue h3 {
+        color: #f4643f;
+        font-size: 22px;
+    }
+    #testimonial div.test_body div.test_box_blue h4 {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+}
+@media all and (max-width: 768px) {
+    header nav.left ul li {
+        display: none;
+    }
+    header nav.left ul li:first-child {
+        display: block;
+    }
+    .flex-wrapper {
+        flex-wrap: wrap;
+    }
+    #spotlight div.left {
+        width: 100%;
+        text-align: center;
+    }
+    #spotlight div.left p {
+        width: 100%;
+    }
+    #spotlight div.left a.button {
+        margin-bottom: 20px;
+    }
+    #spotlight div.right div.bg div.img {
+        width: 170px;
+    }
+    #logo div.one div.bg span {
+        left: 286px;
+    }
+    #logo p {
+        width: 60%;
+    }
+    #article div.cards ul {
+        flex-wrap: wrap;
+    }
+    #article div.cards ul li {
+        width: 100%;
+    }
+    #article div.cards ul li div.card_img {
+        height: 300px;
+    }
+
+    #testimonial div.test_head {
+        padding: 30px 0;
+    }
+    #testimonial div.box_container {
+        left: 70px;
+    }
+    #testimonial div.test_bottom {
+        padding: 50px 0;
+    }
+    footer div.container {
+        flex-wrap: wrap;
+    }
+    footer div.container div.left {
+        width: 40%;
+    }
+    footer div.container div.middle_first {
+        width: 50%;
+    }
+    footer div.container div.middle_second {
+        width: 40%;
+    }
+    footer div.container div.right {
+        width: 40%;
+    }
+    footer div.container div.right div.map_box {
+        width: 210px;
+        height: 240px;
+    }
+    footer div.container div.right div.map_box {
+        left: -43px;
+        bottom: -40px;
+    }
+    footer div.container div.right div.map_box h3 {
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+    footer div.container div.right div.map_box h5 {
+        margin-bottom: 0px;
+    }
+    footer div.container div.right div.map_box p {
+        margin: 0;
+    }
+    #works div.container {
+        display: block;
+    }
+    #works div.head {
+        text-align: center;
+    }
+    #works div.head div.door {
+        left: 51%;
+    }
+    #works div.container div.left{
+        margin: 0 auto;
+        width: 60%;
+    }
+    #works div.container div.left a.button{
+        margin: 0 50px 20px;
+    }
+    #works div.container ul {
+        width: 100%;
+    }
+   
 }

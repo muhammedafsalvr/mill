@@ -271,9 +271,8 @@ header hr.line {
     margin-left: 112px;
 }
 #about div.right div.bg h4 {
-    max-width: 20%;
     font-size: normal;
-    font-size: 14px;
+    font-size: 20px;
     color: #fff;
     line-height: 2;
 }
@@ -332,19 +331,19 @@ header hr.line {
     position: relative;
     margin-bottom: 30px;
 }
+#industry section.bottom ul li div.bg {
+    background-size: 380px;
+}
 #industry section.bottom ul li div.bg.one {
     background: url(../images/industry1.jpg) no-repeat;
-    background-size: 380px;
     background-position: center -100px;
 }
 #industry section.bottom ul li div.bg.two {
     background: url(../images/industry2.jpg) no-repeat;
-    background-size: 380px;
     background-position: center -257px;
 }
 #industry section.bottom ul li div.bg.three {
     background: url(../images/industry3.jpg) no-repeat;
-    background-size: 380px;
     background-position: center -205px;
 }
 #industry section.bottom ul li div.bg div.logo-bg {
@@ -526,20 +525,10 @@ header hr.line {
     background-size: 380px;
     background-position: center -22px;
 }
-#news div.bottom ul li:first-child div.content {
+#news div.bottom ul li div.content {
     position: absolute;
     bottom: -130px;
     left: 40px;
-}
-#news div.bottom ul li:nth-child(2) div.content {
-    position: absolute;
-    left: 40px;
-    bottom: -130px;
-}
-#news div.bottom ul li:last-child div.content {
-    position: absolute;
-    left: 40px;
-    bottom: -130px;
 }
 #news div.bottom ul li div.content a.button {
     padding: 10px 32px;
@@ -601,7 +590,7 @@ header hr.line {
     width: 15px;
     margin: 0 5px;
 }
-#news div.select span:hover{
+#news div.select span:hover {
     background: #f4643f;
     cursor: pointer;
 }
@@ -1035,4 +1024,80 @@ footer div.footer_bottom {
 }
 footer div.footer_bottom h6 {
     color: #fff;
+}
+
+@media all and (max-width: 1280px) {
+    #spotlight div.left h1 {
+        font-size: 44px;
+    }
+    #logo div.one div.bg span {
+        left: 500px;
+    }
+    #news div.top div.bg span {
+        left: 42%;
+    }
+    #news div.bottom ul li div.content {
+        bottom: -135px;
+        left: 25px;
+    }
+    #news div.bottom ul li div.content h4 {
+        font-size: 17px;
+    }
+    #news div.bottom ul li div.content div.button a.button {
+        font-size: 10px;
+    }
+    #news div.bottom ul li div.content div.button a {
+        width: 25px;
+    }
+    #review div.container div.content h2 {
+        font-size: 30px;
+    }
+    #review div.container div.content div.contact h3 {
+        font-size: 20px;
+    }
+    #review div.container div.content div.contact {
+        width: 356px;
+        top: 485px;
+    }
+    footer div.container div.right div.map_box {
+        width: 235px;
+        height: 310px;
+        bottom: 20px;
+        left: -60px;
+    }
+    footer div.container div.middle_one ul li small {
+        font-size: 9px;
+    }
+    footer div.container div.middle_two ul li div.content span {
+        font-size: 11px;
+    }
+}
+@media all and (max-width: 1080px) {
+    #spotlight div.right div.bg div.img {
+        width: 170px;
+    }
+    #spotlight div.left h1 {
+        font-size: 38px;
+    }
+    #about {
+        background-size: 320px;
+        background-position: 90%;
+    }
+    #about div.right div.bg {
+        width: 320px;
+        left: 419px;
+        bottom: -21px;
+    }
+    #about div.right div.bg h2 {
+        margin-left: 50px;
+    }
+    #about div.right div.bg h4 {
+        font-size: 16px;
+    }
+    #industry section.top p {
+        font-size: 13px;
+        width: 40%;
+    }
+    #industry section.bottom ul li div.bg {
+    }
 }

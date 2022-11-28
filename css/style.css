@@ -1083,7 +1083,7 @@ footer div.footer_bottom h6 {
     }
     #service div.cards ul li div.icon_bg {
         position: absolute;
-        top: 150px;
+        top: 270px;
         right: 24px;
         border-bottom: 1px solid #000;
     }
@@ -1186,7 +1186,35 @@ footer div.footer_bottom h6 {
     #article div.cards ul li div.card_img {
         height: 300px;
     }
-
+    #service div.cards ul li small {
+        font-size: 14px;
+    }
+    #service {
+        padding: 60px 0;
+    }
+    #project p {
+        width: 55%;
+    }
+    #project ul li:first-child {
+        width: 100%;
+    }
+    #project ul li {
+        width: 50%;
+    }
+    #service div.cards ul li {
+        width: 100%;
+        text-align: center;
+    }
+    #service div.cards ul {
+        flex-wrap: wrap;
+    }
+    #service div.cards ul li div.card_img {
+        height: 300px;
+    }
+    #service div.cards ul li small {
+        width: 70%;
+        margin: 0 auto;
+    }
     #testimonial div.test_head {
         padding: 30px 0;
     }
@@ -1238,15 +1266,251 @@ footer div.footer_bottom h6 {
     #works div.head div.door {
         left: 51%;
     }
-    #works div.container div.left{
+    #works div.container div.left {
         margin: 0 auto;
         width: 60%;
     }
-    #works div.container div.left a.button{
+    #works div.container div.left a.button {
         margin: 0 50px 20px;
     }
     #works div.container ul {
         width: 100%;
     }
-   
+}
+@media all and (max-width: 640px) {
+    #spotlight div.right div.bg div.img {
+        width: 120px;
+    }
+    #spotlight {
+        padding: 15px 0;
+    }
+    #logo {
+        padding-bottom: 0px;
+    }
+    #logo div.one div.bg span {
+        left: 205px;
+    }
+    #logo div.two ul li.wide {
+        display: none;
+    }
+    #logo div.two ul li {
+        width: 50%;
+    }
+    #testimonial
+        div.test_bottom
+        div.icon_section
+        ul
+        li
+        div.icon_container
+        span {
+        width: 20px;
+    }
+    #testimonial div.test_bottom div.icon_section ul li div.icon_container h4 {
+        font-size: 10px;
+    }
+    #testimonial div.test_head ul {
+        width: 80%;
+    }
+    #testimonial div.test_body {
+        background-image: none;
+    }
+    #testimonial div.box_container {
+        left: 0px;
+    }
+    #testimonial div.test_body div.test_box {
+        width: 100%;
+    }
+    #testimonial div.test_body div.test_box_blue {
+        width: 100%;
+    }
+    #testimonial div.test_bottom div.icon_section {
+        width: 80%;
+        margin: 0 auto;
+    }
+    #testimonial {
+        padding: 0;
+    }
+    #testimonial div.test_head {
+        margin-bottom: 0;
+    }
+    #testimonial div.box_container div.test_box h2 {
+        width: 100%;
+    }
+    #testimonial div.box_container div.test_box h2 {
+        font-size: 24px;
+    }
+    footer div.container div.left {
+        width: 100%;
+    }
+    footer div.container div.right div.map_box {
+        left: 190px;
+        bottom: 190px;
+    }
+    footer div.container div.left ul li {
+        font-size: 10px;
+        width: 45%;
+    }
+    footer div.container div.left {
+        margin-bottom: 24px;
+    }
+    footer div.container div.right div.map_box {
+        left: 215px;
+        bottom: 240px;
+    }
+}
+@media all and (max-width: 480px) {
+    header nav.right ul li:first-child {
+        display: none;
+    }
+    #article p {
+        width: 75%;
+    }
+    #article div.cards ul li h4 {
+        margin-bottom: 12px;
+    }
+    #spotlight div.right div.bg div.img {
+        width: 100%;
+    }
+    #logo div.one div.bg span {
+        left: 145px;
+    }
+    #logo h2 {
+        font-size: 25px;
+    }
+    #logo p {
+        width: 100%;
+    }
+    #testimonial div.test_body div.test_box_blue h3 {
+        font-size: 18px;
+    }
+    #testimonial div.test_bottom div.icon_section {
+        width: 85%;
+    }
+    #testimonial div.test_body div.test_box ul li {
+        width: 33%;
+    }
+    #testimonial
+        div.test_bottom
+        div.icon_section
+        ul
+        li
+        div.icon_container
+        span {
+        width: 34px;
+    }
+    #industry section.inner_container div.left h2 {
+        font-size: 24px;
+    }
+    #works div.head div.door {
+        left: 35%;
+    }
+    #works {
+        padding: 35px 0;
+    }
+    #works div.container div.left {
+        width: 100%;
+        text-align: center;
+    }
+    #works div.container div.left h1 {
+        font-size: 25px;
+    }
+    #works div.container ul {
+        flex-wrap: wrap;
+    }
+    #works div.container ul li {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    #works div.container ul li div.icon {
+        margin: 0 auto;
+    }
+    #works div.container ul li h5 {
+        width: 100%;
+    }
+    #testimonial div.test_bottom div.icon_section ul li div.icon_container h4 {
+        font-size: 8px;
+    }
+    #testimonial div.test_head ul li h6 {
+        font-size: 18px;
+    }
+    footer div.container div.left ul li {
+        font-size: 12px;
+        width: 100%;
+    }
+    footer div.container div.middle_first {
+        width: 100%;
+    }
+    footer div.container div.middle_first div.inner {
+        justify-content: center;
+    }
+    footer div.container div.middle_first h3 {
+        width: 100%;
+    }
+    footer div.container div.middle_second {
+        width: 100%;
+        text-align: center;
+    }
+    footer div.container div.middle_first {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+    footer div.container div.right {
+        width: 100%;
+        height: 230px;
+    }
+    footer div.container div.right div.map_box {
+        left: 0px;
+        bottom: -50px;
+        width: 290px;
+        height: 265px;
+    }
+    footer div.footer_bottom h6 {
+        font-size: 9px;
+    }
+    footer {
+        padding: 40px 0;
+    }
+}
+@media all and (max-width: 360px) {
+    #spotlight section.container div.right div.hero_bg div.hero_img img {
+        height: 255px;
+    }
+    #spotlight section.container div.right div.hero_bg {
+        height: 255px;
+    }
+    #industry section.inner_container div.left p {
+        font-size: 11px;
+    }
+    #service p {
+        width: 85%;
+    }
+    #service div.cards ul li small {
+        font-size: 14px;
+    }
+    #project p {
+        width: 65%;
+    }
+    #article h2 {
+        font-size: 32px;
+    }
+    #article p {
+        width: 85%;
+    }
+    #article div.cards ul li div.card_img {
+        height: 255px;
+    }
+    #article div.cards ul li h5 {
+        font-size: 19px;
+    }
+    #testimonial div.test_body div.test_box ul li div.content div.bg {
+        width: 60px;
+        height: 60px;
+    }
+    #testimonial div.test_body div.test_box ul li div.content h4 {
+        font-size: 10px;
+    }
+    footer div.container div.right div.map_box {
+        width: 255px;
+    }
 }
